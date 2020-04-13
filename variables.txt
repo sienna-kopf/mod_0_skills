@@ -1,0 +1,12 @@
+food = "Sprinkle Toast"
+is_delicious = true
+food = "Jam Toast"
+num2 = 22
+num7 = 44
+quotient = num7/num2
+songs = ["Over the Rainbow", "Never be like You", "Ni Gucci Ni Prada"]
+
+songs.delete_at(0)
+p "The new song array is: #{songs}" 
+
+p "How many chars are in food? #{food.length}."
